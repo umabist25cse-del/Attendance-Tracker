@@ -1,7 +1,7 @@
 # 🎓 Attendance Tracker — BML Munjal University
 
 > Student Attendance Management System  
-> Built with Python (Flask) + SQLite + HTML/CSS
+> Built with Python (Flask)
 
 ---
 
@@ -14,25 +14,22 @@ It allows teachers to manage student attendance digitally — mark present/absen
 
 ## ✨ Features
 
-| Feature | Description |
-|---|---|
-| 🏠 Dashboard | Mark today's attendance for all students |
-| ➕ Add Students | Add students with Name, Roll No, Class |
-| 📊 Reports | View attendance % for each student |
-| 🚨 Alerts | Highlights students below 75% attendance |
-| 📥 Export CSV | Download attendance data for Excel/Sheets |
-| 🗑️ Delete | Remove students from the system |
+| Feature |
 
+|---|---|
+
+|Mark students as Present or Absent
+View all attendance records
+Search attendance by name
+View summary of Present/Absent count
+Data saved automatically in a CSV file|
 ---
 
 ## 🛠️ Tech Stack
 
 - **Backend:** Python 3 + Flask
-- **Database:** SQLite (auto-created on first run)
-- **Frontend:** HTML5 + CSS3 + Vanilla JavaScript
-- **Theme:** BML Munjal University (Navy Blue + Gold)
 
----
+--
 
 ## 🚀 How to Run Locally
 
@@ -65,17 +62,21 @@ http://127.0.0.1:5000
 attendance-tracker/
 │
 ├── app.py                  # Flask backend (routes + DB logic)
-├── attendance.db           # SQLite database (auto-created)
+├── attendance.db      
 ├── requirements.txt        # Python dependencies
 ├── README.md               # This file
 │
-├── templates/
-│   ├── index.html          # Dashboard / Home page
-│   └── report.html         # Attendance Reports page
-│
-└── static/
-    └── css/
-        └── style.css       # Styling (BML Munjal theme)
+e
+========================================
+      ATTENDANCE TRACKER
+========================================
+
+  1. Mark Present
+  2. Mark Absent
+  3. View All Attendance
+  4. Search by Name
+  5. Summary
+  6. Exit
 ```
 
 ---
